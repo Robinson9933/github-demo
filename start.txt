@@ -1,1 +1,437 @@
 Test Git Quick Start Demo
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ git version
+git version 2.16.1.windows.1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ cd
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ ls
+ abBox/                   ntuser.dat.LOG2
+ AppData/                 NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TM.blf
+'Application Data'@       NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TMContainer00000000000000000001.regtrans-ms
+ Contacts/                NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TMContainer00000000000000000002.regtrans-ms
+ Cookies@                 ntuser.ini
+ Desktop/                 OneDrive/
+ Documents/               PicStream/
+ Downloads/               Pictures/
+ Favorites/               PrintHood@
+ IntelGraphicsProfiles/   Recent@
+ Links/                  'Saved Games'/
+'Local Settings'@         Searches/
+ Music/                   SendTo@
+'My Documents'@          'Start Menu'@
+ NetHood@                 Templates@
+ NTUSER.DAT               Videos/
+ ntuser.dat.LOG1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ list
+bash: list: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ git version
+git version 2.16.1.windows.1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ pwd
+/c/Users/Matt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ mkdir projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ cd projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ pwd
+/c/Users/Matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ ls
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ ls
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ cd
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ ls
+ abBox/                   ntuser.dat.LOG2
+ AppData/                 NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TM.blf
+'Application Data'@       NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TMContainer00000000000000000001.regtrans-ms
+ Contacts/                NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TMContainer00000000000000000002.regtrans-ms
+ Cookies@                 ntuser.ini
+ Desktop/                 OneDrive/
+ Documents/               PicStream/
+ Downloads/               Pictures/
+ Favorites/               PrintHood@
+ IntelGraphicsProfiles/   projects/
+ Links/                   Recent@
+'Local Settings'@        'Saved Games'/
+ Music/                   Searches/
+'My Documents'@           SendTo@
+ NetHood@                'Start Menu'@
+ NTUSER.DAT               Templates@
+ ntuser.dat.LOG1          Videos/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ pwd
+/c/Users/Matt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ cw projects
+bash: cw: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ cd matt
+bash: cd: matt: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ ls
+ abBox/                   ntuser.dat.LOG2
+ AppData/                 NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TM.blf
+'Application Data'@       NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TMContainer00000000000000000001.regtrans-ms
+ Contacts/                NTUSER.DAT{41a393d0-af50-11e6-af81-b8c45fad507a}.TMContainer00000000000000000002.regtrans-ms
+ Cookies@                 ntuser.ini
+ Desktop/                 OneDrive/
+ Documents/               PicStream/
+ Downloads/               Pictures/
+ Favorites/               PrintHood@
+ IntelGraphicsProfiles/   projects/
+ Links/                   Recent@
+'Local Settings'@        'Saved Games'/
+ Music/                   Searches/
+'My Documents'@           SendTo@
+ NetHood@                'Start Menu'@
+ NTUSER.DAT               Templates@
+ ntuser.dat.LOG1          Videos/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ pwd
+/c/Users/Matt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ cd projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ pwd
+/c/Users/Matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ mkdir tester1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ cd tester1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ pwd
+/c/Users/Matt/projects/tester1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ cd projects
+bash: cd: projects: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ ls
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ cd projects
+bash: cd: projects: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ pwd
+/c/Users/Matt/projects/tester1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ cdprojects
+bash: cdprojects: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ cd projects
+bash: cd: projects: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ pwd
+/c/Users/Matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ cd tester1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ pwd
+/c/Users/Matt/projects/tester1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects/tester1
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ pwd
+/c/Users/Matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ pwd
+/c/Users/Matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ version
+bash: version: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ git version
+git version 2.16.1.windows.1
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~/projects
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ pwd
+/c/Users/Matt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 ~
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ cd projects
+bash: cd: projects: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ cd matt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt
+$ pwd
+/c/Users/matt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ pwd
+/c/Users
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ cd matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ pwd
+/c/Users/matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt
+$ cd ..
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ pwd
+/c/Users
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ cd matt/project
+bash: cd: matt/project: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users
+$ cd matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ pwd
+/c/Users/matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ git config --global user.name "robinson9933"
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ git config --global user.email "marobinson@csumb.edu"
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ user.eamil
+bash: user.eamil: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ pwd
+/c/Users/matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ git config --global --list
+user.name=robinson9933
+user.email=marobinson@csumb.edu
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ git clone https://github.com/Robinson9933/github-demo.git
+Cloning into 'github-demo'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+github-demo/  tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ rm tester1
+rm: cannot remove 'tester1': Is a directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ pwd
+/c/Users/matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+github-demo/  tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+github-demo/  tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ pwd
+/c/Users/matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ cd project
+bash: cd: project: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ cd projects
+bash: cd: projects: No such file or directory
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ pwd
+/c/Users/matt/projects
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ ls
+github-demo/  tester1/
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects
+$ cd github-demo
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ pwd
+/c/Users/matt/projects/github-demo
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ echo "Test Git Quick Start Demo" >> start.txt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ ls
+README.md  start.txt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ cat start.txt
+Test Git Quick Start Demo
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        start.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ echo start.txt
+start.txt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ cat start.txt
+Test Git Quick Start Demo
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ status
+bash: status: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        start.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git add start.txt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   start.txt
+
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git commit -m "Adding start text file"
+[master 5300b79] Adding start text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 start.txt
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ status
+bash: status: command not found
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$ git push origin master
+Username for 'https://github.com': Robinson9933
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 62.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Robinson9933/github-demo.git
+   f54fb43..5300b79  master -> master
+
+Matt@DESKTOP-9AHOCN0 MINGW64 /c/Users/matt/projects/github-demo (master)
+$
